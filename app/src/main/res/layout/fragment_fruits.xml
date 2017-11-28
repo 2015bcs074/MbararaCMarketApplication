@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bornittah.mbararacmarketapplication.Fragments.Fruits">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18dp"
+                android:textColor="#0e035e"
+                android:text="Come for the best quality fruits for your health. Oranges, mangoes, passion fruits, jack fruits,
+ water mellon, banana, apples,lemons, gauvas"
+                android:id="@+id/textView" />
+            <ImageView android:layout_width="350dp"
+                android:layout_height="400dp"
+                android:src="@drawable/fruits"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="82dp"
+                android:layout_marginLeft="10dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

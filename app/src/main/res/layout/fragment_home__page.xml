@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/homepage"
+    tools:context="com.example.bornittah.mbararacmarketapplication.Fragments.Home_Page">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="WELCOME TO MBARARA CENTRAL MARKET"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:textColor="#e209ed"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Enjoy its offers"
+        android:layout_marginTop="150dp"
+        android:textAlignment="center"
+        android:textColor="#e209ed"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Located at independence park Mbarara"
+        android:layout_marginTop="200dp"
+        android:textAlignment="center"
+        android:textColor="#e209ed"
+        android:textSize="18sp"
+        />
+    <ImageView android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="180dp"
+        android:id="@+id/imageView2"
+        android:layout_marginLeft="15dp"
+        />
+
+
+</RelativeLayout>
